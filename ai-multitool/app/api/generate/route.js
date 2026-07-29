@@ -12,7 +12,7 @@ export const maxDuration = 60;
 // Currently pinned to a single model per request — add more back into this array
 // to re-enable fallback. Model availability on OpenRouter's free tier changes over
 // time — verify these are still live at https://openrouter.ai/models.
-const MODELS = ["poolside/laguna-s-2.1:free"];
+const MODELS = ["nvidia/nemotron-3-ultra-550b-a55b:free"];
 
 // Per-model timeout. With only one model in the fallback chain, we can afford to
 // give it most of the maxDuration budget instead of splitting it across several
